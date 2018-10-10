@@ -1,5 +1,5 @@
 function makeDog(n, fdf, b, a) {
-    return {name: n, favouriteDogFood: fdf, breed:n, age: a};
+    return {name: n, favouriteDogFood: fdf, breed:b, age: a};
 }
 
 function makeCat(n, fcf, a) {
