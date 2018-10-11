@@ -14,6 +14,7 @@ if(d.age !== 3) {
 if(d.breed !== "schnitzel") {
     throw new Error ("Incorred breed")
 };
-if(typeof d.bark !== "string") {
+if(typeof d.bark() !== "string") {
     throw new Error ("bark method return type incorrect")
 }
+console.log("All tests passed")
